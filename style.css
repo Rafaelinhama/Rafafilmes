@@ -1,0 +1,45 @@
+body {
+    color: white;
+    font-family: "Averia Libre", system-ui;
+    background: rgb(5, 17, 6);
+    text-align: center;
+    margin: 20px
+    
+
+}
+
+header {
+    border-bottom: solid 1px rgb(144, 207, 145);
+    font-size: 70px;
+    padding: 15px;
+    color: rgb(144, 207, 145);
+    font-family: "Amatic SC", sans-serif;
+    
+
+}
+
+section { 
+    background: rgb(19, 66, 23);
+   padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+  
+    font-size: 20px;
+}
+
+h1 { 
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2{ 
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    text-align: left;
+}
