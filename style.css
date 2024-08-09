@@ -3,8 +3,8 @@ body {
     font-family: "Averia Libre", system-ui;
     background: rgb(5, 17, 6);
     text-align: center;
-    margin: 20px
-    
+    margin-bottom: 5%;
+    margin-top: 2%;
 
 }
 
@@ -18,10 +18,9 @@ header {
 
 }
 
-section { 
+.chamada-texto { 
     background: rgb(19, 66, 23);
    padding: 10px;
-    display: flex;
     justify-content: center;
 }
 
@@ -42,4 +41,29 @@ h2{
     font-family: "Amatic SC", sans-serif;
     font-size: 60px;
     text-align: left;
+    color: rgb(144, 207, 145);
+    border-bottom: solid 1px rgb(144, 207, 145);
+}
+
+.recomendados {
+
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+.minis {
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.recomendados img {
+    opacity: 60%;
+    height: 200px;
+}
+
+.recomendados img:hover{
+   opacity: 100%;
+   border: solid 2px rgb(144, 207, 145);
 }
